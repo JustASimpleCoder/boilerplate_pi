@@ -32,9 +32,6 @@ export default function Home() {
             <strong>CPU Load:</strong> {stats.cpuLoad || "Loading..."}
           </li>
           <li>
-            <strong>Battery Status:</strong> {stats.batteryStatus || "Loading..."}
-          </li>
-          <li>
             <strong>Apache Server:</strong> {stats.apacheStatus || "Loading..."}
           </li>
         </ul>
